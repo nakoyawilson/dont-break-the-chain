@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css">
     <title>Don't Break the Chain</title>
 </head>
@@ -13,17 +15,72 @@
     <main>
         <h1>Don't Break the Chain 2022</h1>
         <div class="activity">
-            <p>Activity</p>
+            <div class="activity-display">
+                <p class="main-text">Activity: <span class="chosen-activity"></span></p>
+                <button class="activity-button btn" id="change">Change activity?</button>
+                <button class="activity-button btn" id="clear">Clear calendar?</button>
+            </div>
+            <div class="activity-form">
+                <div class="row d-flex justify-content-center">
+                    <div class="col-4">
+                        <input class="activity-name form-control form-control-lg" type="text" placeholder="Activity">
+                    </div>
+                    <div class="col-2 d-grid">
+                        <button class="activity-button btn btn-lg" id="activity-submit">Submit</button>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="calendar">
-
+        <div class="d-flex justify-content-center">
+            <div class="calendar">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="row">
+                                <div class="col-12 month-container month"></div>
+                                <div class="col-12 month-container january">January</div>
+                                <div class="col-12 month-container february">February</div>
+                                <div class="col-12 month-container march">March</div>
+                                <div class="col-12 month-container april">April</div>
+                                <div class="col-12 month-container may">May</div>
+                                <div class="col-12 month-container june">June</div>
+                                <div class="col-12 month-container july">July</div>
+                                <div class="col-12 month-container august">August</div>
+                                <div class="col-12 month-container september">September</div>
+                                <div class="col-12 month-container october">October</div>
+                                <div class="col-12 month-container november">November</div>
+                                <div class="col-12 month-container december">December</div>
+                            </div>
+                        </div>
+                        <div class="col-md-8 days-container">
+                            <button class="btn days-button">S</button><button
+                                class="btn days-button no-click">M</button><button
+                                class="btn days-button no-click">T</button><button
+                                class="btn days-button no-click">W</button><button
+                                class="btn days-button no-click">T</button><button
+                                class="btn days-button no-click">F</button><button
+                                class="btn days-button no-click">S</button><br><button
+                                class="btn days-button no-click"></button><button
+                                class="btn days-button no-click"></button><button
+                                class="btn days-button no-click"></button><button
+                                class="btn days-button no-click"></button><button
+                                class="btn days-button no-click"></button><button
+                                class="btn days-button no-click"></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </main>
     <footer>
-        <p>&copy; Copyright <span class="current-year"></span> Nakoya Wilson</p>
-        <p>Designed by <a href="https://nakoyawilson.netlify.app" target="_blank" rel="noopener">Nakoya Wilson</a></p>
+        <p>&copy; Copyright <span class="current-year"></span> <a href="https://nakoyawilson.netlify.app"
+                target="_blank" rel="noopener">Nakoya Wilson</a></p>
     </footer>
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/5731871d5b.js" crossorigin="anonymous"></script>
     <script src="js/app.js"></script>
 </body>
 
