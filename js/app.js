@@ -47,15 +47,12 @@ let count = 0;
 for (let i = 0; i < 12; i++) {
     const monthText = months[i];
     const numDays = getNumberOfDays(i + 1, 2022);
-    const monthContainer = document.createElement("div");
-    calendar.append(monthContainer);
     for (let j = 0; j < numDays; j++) {
         const button = document.createElement("button");
         button.classList.add("btn");
         button.classList.add("days-button");
         const buttonID = `${monthText.toLowerCase()}-${j + 1}`
         const day = j + 1
-        monthContainer.append(button);
         if (i % 2 === 0) {
             button.classList.add("even");
         } else {
