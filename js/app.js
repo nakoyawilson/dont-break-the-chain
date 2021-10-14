@@ -1,7 +1,3 @@
-// Copyright Year
-const currentYear = document.querySelector(".current-year");
-currentYear.innerHTML = new Date().getFullYear();
-
 // Activity Display
 const activityDisplay = document.querySelector(".activity-display");
 const chosenActivity = document.querySelector(".chosen-activity");
