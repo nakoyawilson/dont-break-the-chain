@@ -161,10 +161,6 @@ a {
         font-size: 0.75rem;
     }
 
-    .month {
-        height: 40px;
-    }
-    
     .january {
         height: 160px;
     }
@@ -216,11 +212,74 @@ a {
     .main-text {
         font-size: 1.5rem;
     }
+
     .days-button {
         width: 30px;
     }
 
     #activity-submit {
         margin-top: 0.5rem;
+    }
+}
+
+@media (max-width: 300px) {
+    .days-button {
+        font-size: 0.5rem;
+    }
+
+    .month-container {
+        font-size: 0.75rem;
+    }
+
+    .days-button {
+        width: 25px;
+    }
+
+    .month {
+        height: 30px;
+    }
+    
+    .january {
+        height: 130px;
+    }
+    
+    .february {
+        height: 100px
+    }
+    
+    .march {
+        height: 110px;
+    }
+    
+    .april {
+        height: 125px;
+    }
+    
+    .may {
+        height: 110px;
+    }
+    
+    .june {
+        height: 105px;
+    }
+    
+    .july {
+        height: 125px;
+    }
+    
+    .august {
+        height: 105px;
+    }
+    
+    .september {
+        height: 110px;
+    }
+    
+    .october {
+        height: 120px;
+    }
+    
+    .november {
+        height: 110px;
     }
 }
