@@ -112,6 +112,10 @@ h1 {
     height: 155px;
 }
 
+.mobile {
+    display: none;
+}
+
 /* Footer Section */
 footer {
     text-align: center;
@@ -138,6 +142,16 @@ a {
         width: 90%;
         padding: 0;
     }
+
+    .desktop {
+        display: none;
+    }
+
+    .mobile {display: block;}
+}
+
+@media (max-width: 450px) {
+
 
     .days-button {
         font-size: 0.75rem;
@@ -194,14 +208,19 @@ a {
     .november {
         height: 130px;
     }
-}
-
-@media (max-width: 4500px) {
 
     h1 {
         font-size: 2rem;
     }
+
+    .main-text {
+        font-size: 1.5rem;
+    }
     .days-button {
         width: 30px;
+    }
+
+    #activity-submit {
+        margin-top: 0.5rem;
     }
 }
