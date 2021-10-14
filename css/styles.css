@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap');
+
+* {
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+body {
+    background-image: linear-gradient(180deg,#FAAD00, #E95E19);
+}
+
+h1 {
+    text-align: center;
+    font-size: 4rem;
+    margin: 2rem;
+}
+
+.activity {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.main-text {
+    font-size: 3rem;
+}
+
+.activity-button {
+    background-color: #E95E19;
+    color: #fff;
+}
+
+.activity-button:hover {
+    background-color: #fff;
+    color: #E95E19;
+}
+
+.calendar {
+    background-color: #fff;
+    width: 50%;
+    border-radius: 20px;
+    padding: 5rem 0;
+}
+
+.days-container {
+    font-size: 0;
+}
+
+.days-button {
+    width: 50px;
+    font-size: 1rem;
+    border-radius: 0;
+}
+
+.days-button:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.even {
+    background-color: #FFC069;
+}
+
+.month-container {
+    text-align: right;
+    font-size: 1.5rem;
+}
+
+.month {
+    height: 40px;
+}
+
+.january {
+    height: 190px;
+}
+
+.february {
+    height: 155px
+}
+
+.march {
+    height: 150px;
+}
+
+.april {
+    height: 190px;
+}
+
+.may {
+    height: 150px;
+}
+
+.june {
+    height: 150px;
+}
+
+.july {
+    height: 190px;
+}
+
+.august {
+    height: 150px;
+}
+
+.september {
+    height: 155px;
+}
+
+.october {
+    height: 190px;
+}
+
+.november {
+    height: 155px;
+}
+
+/* Footer Section */
+footer {
+    text-align: center;
+    color: #fff;
+    margin-top: 5rem;
+}
+
+a {
+    text-decoration: none;
+    color: #FFC069;
+}
