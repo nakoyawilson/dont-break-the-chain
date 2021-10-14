@@ -146,4 +146,62 @@ a {
     .month-container {
         font-size: 0.75rem;
     }
+
+    .month {
+        height: 40px;
+    }
+    
+    .january {
+        height: 160px;
+    }
+    
+    .february {
+        height: 130px
+    }
+    
+    .march {
+        height: 125px;
+    }
+    
+    .april {
+        height: 155px;
+    }
+    
+    .may {
+        height: 135px;
+    }
+    
+    .june {
+        height: 125px;
+    }
+    
+    .july {
+        height: 160px;
+    }
+    
+    .august {
+        height: 130px;
+    }
+    
+    .september {
+        height: 130px;
+    }
+    
+    .october {
+        height: 155px;
+    }
+    
+    .november {
+        height: 130px;
+    }
+}
+
+@media (max-width: 4500px) {
+
+    h1 {
+        font-size: 2rem;
+    }
+    .days-button {
+        width: 30px;
+    }
 }
