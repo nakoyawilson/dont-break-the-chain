@@ -123,3 +123,27 @@ a {
     text-decoration: none;
     color: #FFC069;
 }
+
+/* Media Queries */
+
+@media (max-width: 1200px) {
+    .calendar {
+        width: 70%;
+    }
+}
+
+@media (max-width: 800px) {
+
+    .calendar {
+        width: 90%;
+        padding: 0;
+    }
+
+    .days-button {
+        font-size: 0.75rem;
+    }
+
+    .month-container {
+        font-size: 0.75rem;
+    }
+}
